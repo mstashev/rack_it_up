@@ -66,7 +66,7 @@ class App
   end
 
   def four_oh_four
-    ['404', headers, ["We're sorry. We couldn't that."]]
+    ['404', headers, ["We sorry. We no Engrish."]]
   end
 
   def self.call(env)

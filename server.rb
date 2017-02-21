@@ -23,7 +23,7 @@ app = Proc.new do |env|
   elsif path.start_with?("/current_time")
     ['200', headers, [current_time.strftime("%Y-%m-%d %H:%M:%S")]]
   else
-    ['404', headers, ["We're sorry. We can't Engrish apparently."]]
+    ['404', headers, ["We sorry. We no Engrish."]]
   end
 
 end
